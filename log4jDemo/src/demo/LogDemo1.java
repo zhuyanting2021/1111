@@ -19,7 +19,7 @@ public class LogDemo1 {
 
 		PropertyConfigurator.configure("E:\\eclipsePratice\\log4jDemo\\src\\demo\\log4j.properties");
 		for (int i = 0; i < 100; i++) {
-			logger.trace("跟踪信息");
+			logger.trace("跟踪信息111");
 			logger.debug("调试信息");
 			logger.info("输出信息");
 			logger.warn("警告信息");
